@@ -2,7 +2,7 @@
 
 * { 
 	box-sizing: border-box;
-    background-color: #dad1c5;
+    background-color: #A68D6B;
     color: #473E31;
 }
 html, body {
@@ -11,11 +11,14 @@ html, body {
 	
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
-.hero{
-    background-image: url(https://sdg-migration-id.s3.amazonaws.com/SOM-Optimo-graham-thompson-optimo-felt-hats-04-18.jpg);
-    
-}
-	
+
+
+/* .hero-description {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	  } */
 body {
 	font-family: 'Playfair Display', serif;
 	font-size: 1.4rem;
@@ -139,9 +142,9 @@ a.left-nav-button:visited {
 	justify-content: center;
 }
 
-.hero::before {
+.hero::before{
 	content: "";
-	background-image: url('images/hero-background.jpg');
+	background-image: url('https://sdg-migration-id.s3.amazonaws.com/SOM-Optimo-graham-thompson-optimo-felt-hats-04-18.jpg');
 	background-size: cover;
 	position: absolute;
 	top: 0px;
